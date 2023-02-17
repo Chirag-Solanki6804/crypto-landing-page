@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  padding: 20px;
+  background-color: #000;
+  height: 10vh;
+}
+
+.logo {
+  width: 250px;
+  border-right: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+nav ul {
+  display: flex;
+  width: 600px;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+nav ul li {
+  cursor: pointer;
+}
+
+nav .btn {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+}
+
+nav .btn .token-btn-nav {
+  border: none;
+  width: 150px;
+  height: 40px;
+  border-radius: 11.2308px;
+  color: white;
+  font-weight: 600;
+  font-size: 16.9487px;
+  background-color: #ba0cc5;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+/* ************************** */
+/* ***** Hero Section ******* */
+/* ************************** */
+
+.hero-section {
+  background: url(../assets/bg.png) repeat 0 0;
+  height: 90vh;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 90px;
+}
+
+.hero-section .maintext {
+  font-size: 4.3rem;
+  text-align: center;
+  color: whitesmoke;
+  font-weight: 900;
+}
+
+.hero-section .subtext {
+  font-size: 1.7rem;
+  text-align: center;
+  color: whitesmoke;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+}
+.hero-section .req-btn-main {
+  position: relative;
+  top: -100px;
+  line-height: 45px;
+  border: none;
+  border-radius: 11.2308px;
+  width: 350px;
+  height: 50px;
+  color: white;
+  font-weight: 600;
+  font-size: 26.9487px;
+  background-color: #ba0cc5;
+  font-weight: normal;
+  cursor: pointer;
+}
